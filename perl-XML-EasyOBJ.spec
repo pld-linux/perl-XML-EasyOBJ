@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	EasyOBJ
+%define		pdir	XML
+%define		pnam	EasyOBJ
 Summary:	XML::EasyOBJ - easy XML object navigation
 Summary(pl):	XML::EasyOBJ - ³atwa nawigacja po obiekcie XML
 Name:		perl-XML-EasyOBJ
