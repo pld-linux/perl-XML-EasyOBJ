@@ -11,7 +11,7 @@ Name:		perl-XML-EasyOBJ
 Version:	1.12
 Release:	1
 # same as perl
-License:	GPL or Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	875e4331ba2b8eebfee1ea15f4437992
@@ -38,7 +38,6 @@ programowanie z u¿yciem obiektów (OOP).
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make}
 
 %{?with_tests:%{__make} test}
