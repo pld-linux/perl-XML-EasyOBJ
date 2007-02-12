@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	EasyOBJ
 Summary:	XML::EasyOBJ - easy XML object navigation
-Summary(pl):	XML::EasyOBJ - ³atwa nawigacja po obiekcie XML
+Summary(pl.UTF-8):   XML::EasyOBJ - Å‚atwa nawigacja po obiekcie XML
 Name:		perl-XML-EasyOBJ
 Version:	1.12
 Release:	1
@@ -26,11 +26,11 @@ trivial. You don't need to understand the DOM, you don't need to even
 know what SAX is, all you need to know is how an XML document is
 structured and how to program with objects (OOP).
 
-%description -l pl
-Ten modu³ zosta³ zaprojektowany aby uczyniæ dostêp do dokumentów XML
-w miarê prostym. Nie trzeba rozumieæ DOM, nie trzeba nawet wiedzieæ
-czym jest SAX, wystarczy znaæ tylko strukturê dokumentu XML i
-programowanie z u¿yciem obiektów (OOP).
+%description -l pl.UTF-8
+Ten moduÅ‚ zostaÅ‚ zaprojektowany aby uczyniÄ‡ dostÄ™p do dokumentÃ³w XML
+w miarÄ™ prostym. Nie trzeba rozumieÄ‡ DOM, nie trzeba nawet wiedzieÄ‡
+czym jest SAX, wystarczy znaÄ‡ tylko strukturÄ™ dokumentu XML i
+programowanie z uÅ¼yciem obiektÃ³w (OOP).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
