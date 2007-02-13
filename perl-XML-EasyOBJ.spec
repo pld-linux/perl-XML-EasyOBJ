@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	EasyOBJ
 Summary:	XML::EasyOBJ - easy XML object navigation
-Summary(pl.UTF-8):   XML::EasyOBJ - łatwa nawigacja po obiekcie XML
+Summary(pl.UTF-8):	XML::EasyOBJ - łatwa nawigacja po obiekcie XML
 Name:		perl-XML-EasyOBJ
 Version:	1.12
 Release:	1
