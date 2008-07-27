@@ -9,7 +9,7 @@ Summary:	XML::EasyOBJ - easy XML object navigation
 Summary(pl.UTF-8):	XML::EasyOBJ - łatwa nawigacja po obiekcie XML
 Name:		perl-XML-EasyOBJ
 Version:	1.12
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
