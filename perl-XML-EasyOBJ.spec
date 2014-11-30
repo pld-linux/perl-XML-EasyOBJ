@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	XML
 %define		pnam	EasyOBJ
+%include	/usr/lib/rpm/macros.perl
 Summary:	XML::EasyOBJ - easy XML object navigation
 Summary(pl.UTF-8):	XML::EasyOBJ - łatwa nawigacja po obiekcie XML
 Name:		perl-XML-EasyOBJ
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	875e4331ba2b8eebfee1ea15f4437992
+URL:		http://search.cpan.org/dist/XML-EasyOBJ/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -27,10 +28,10 @@ know what SAX is, all you need to know is how an XML document is
 structured and how to program with objects (OOP).
 
 %description -l pl.UTF-8
-Ten moduł został zaprojektowany aby uczynić dostęp do dokumentów XML
-w miarę prostym. Nie trzeba rozumieć DOM, nie trzeba nawet wiedzieć
-czym jest SAX, wystarczy znać tylko strukturę dokumentu XML i
-programowanie z użyciem obiektów (OOP).
+Ten moduł został zaprojektowany aby uczynić dostęp do dokumentów XML w
+miarę prostym. Nie trzeba rozumieć DOM, nie trzeba nawet wiedzieć czym
+jest SAX, wystarczy znać tylko strukturę dokumentu XML i programowanie
+z użyciem obiektów (OOP).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
