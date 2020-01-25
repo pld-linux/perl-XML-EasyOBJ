@@ -4,7 +4,6 @@
 
 %define		pdir	XML
 %define		pnam	EasyOBJ
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::EasyOBJ - easy XML object navigation
 Summary(pl.UTF-8):	XML::EasyOBJ - łatwa nawigacja po obiekcie XML
 Name:		perl-XML-EasyOBJ
